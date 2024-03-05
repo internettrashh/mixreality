@@ -1,0 +1,18 @@
+.App {
+  position: relative;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+ 
+ button {
+  position: absolute;
+  z-index: 1; /* Ensure it's above the A-Frame scene */
+  margin: 20px; /* Add some space around the button */
+ }
+ a-scene {
+  z-index: 0; /* Ensure it's below the button */
+ }
+ 
