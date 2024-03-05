@@ -15,7 +15,9 @@
     "aframe-event-set-component": "^5.0.0",
     "aframe-look-at-component": "^1.0.0",
     "aframe-react": "^4.4.0",
-    "aframe-ui-widgets": "^1.0.2"
+    "aframe-ui-widgets": "^1.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
